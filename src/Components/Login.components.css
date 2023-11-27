@@ -1,0 +1,146 @@
+.login-page-container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.imgcontainer{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imgcontainer h2{
+    color: darkgreen;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+.imgcontainer img{
+    width: 10%;
+    height: 10%;
+}
+
+.input-container{
+    
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container .input-email-container  input{
+    width: 20vw;
+    height: 6vh;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 19px;
+    border: none;
+    color: rgb(122, 115, 115) ;
+    font-size: large;
+    text-align: center;
+}
+
+.input-container .input-password-container #password{
+    width: 20vw;
+    height: 6vh;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 19px;
+    border: none;
+    color: rgb(122, 115, 115);
+    font-size: large;
+    text-align: center;
+}
+.input-password-container .showpassworddiv {
+    display: flex;
+    justify-content: center;
+}
+.input-container p{
+    text-align: center;
+    color: red;
+    opacity: 0.7;
+}
+.showpassworddiv input,label {
+    cursor: pointer;
+    color: gray;
+}
+.loginbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbutton button{
+    width: 20vw;
+    height: 6vh;
+    border-radius: 19px;
+    background-color: #00FF2580;
+}
+
+.frogot-password{
+    text-align: center;
+}
+
+.frogot-password h3{
+    color: #36A546;
+    font-weight: 400;
+}
+
+
+@media  screen and  (max-width: 800px ) {
+    .input-container .input-email-container  input{
+    width: 65vw;
+    height: 6vh;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 19px;
+    border: none;
+    color: rgb(122, 115, 115) ;
+    font-size: large;
+    text-align: center;
+}
+    .input-container .input-password-container #password{
+    width: 65vw;
+    height: 6vh;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 19px;
+    border: none;
+    color: rgb(122, 115, 115);
+    font-size: large;
+    text-align: center;
+}
+
+    .loginbutton button{
+    width: 65vw;
+    height: 6vh;
+    border-radius: 19px;
+    background-color: #00FF2580;
+}
+.imgcontainer{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imgcontainer img{
+    width: 25%;
+    height: 25%;
+}
+
+}
