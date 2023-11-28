@@ -58,12 +58,68 @@
     font-weight: 500;
 }
 .even {
-    margin-right: 2% ;   
-    text-align: right;
+    margin-right: 2%;
+    text-align: left;
+    background: rgb(33, 33, 32);
+    width: 70%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+.even p{
+    margin-left: 5%;
+}
+.odd p{
+    margin-left: 5%;
 }
 .odd {
-    text-align:left;   
+    background: rgb(33, 33, 32);
+    width: 70%;
+    margin-left: 5%;
+    text-align: left;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    border-radius: 15px;  
+    margin-top: 2%;
 }
+.cornernumber p{
+    color: white;
+}
+
+.odd .cornernumber{
+    margin-top: 2%;
+    margin-right: 7%;
+}
+.even .cornernumber{
+    margin-right: 7%;
+    margin-top: 2%;
+    
+}
+
+.odd .cornernumber p{
+    width: 120%;
+ 
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+.even .cornernumber p{
+    width: 120%;
+    
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+.userdetailscontainer {
+    margin-left: 5% ;
+    width: 55vw;
+}
+
 
 @media screen and (max-width: 800px) {
     .cardscontainer{
